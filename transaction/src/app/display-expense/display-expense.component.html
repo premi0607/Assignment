@@ -1,0 +1,17 @@
+<body>
+    <div class="container" *ngFor = "let ex of expense">
+        <div class="info">
+           <h3>{{ex.name}} <span style = "float: right;">Amount 💰: {{ex.amount}}</span></h3>
+           <!-- <button (click)="ViewMovie(movie.id)">View</button> -->
+           <p><span>Date:</span>{{ex.date}}</p>
+           <p><span>Description:</span> {{ex.desc}}</p>
+           
+           <!-- <button (click)="DelMovie(movie)">Delete</button><br><br>
+           <button (click)="UpdateMovie(movie.id)">Update</button> -->
+    
+           <br>
+         </div>
+    
+    
+    </div>
+    </body>   
